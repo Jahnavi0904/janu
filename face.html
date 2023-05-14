@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Face Detection Web Page</title>
+  <style>
+    body {
+      background-image: url('https://media.kairos.com/blog-images/crowd.png');
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      color: white;
+      margin-top: 150px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    .button:hover {
+      background-color: #45a049;
+    }
+  </style>
+  <script>
+    function openNotebook() {
+      window.open('https://colab.research.google.com/github/dortmans/ml_notebooks/blob/master/face_detection.ipynb', '_blank');
+    }
+  </script>
+</head>
+<body>
+  <h1>Boarding Pass</h1>
+  <button class="button" onclick="openNotebook()">Scan</button>
+</body>
+</html>
